@@ -1,0 +1,1 @@
+The hash table making process is a little tedious and involves 2 for loop just to make it. This is before any other for loop that may be needed to operate on that hash table.
