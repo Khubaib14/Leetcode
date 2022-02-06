@@ -1,10 +1,11 @@
 class Solution:
     def findLucky(self, nums: List[int]) -> int:
         d, l = dict(), []
-        for i in set(nums):
-            d[i] = 0
         for i in nums:
-            d[i] += 1
+            if i in d:
+                d[i] += 1
+            else:
+                d[i] = 1
         for key, value in d.items():
             if key == value:
                 l.append(key)
