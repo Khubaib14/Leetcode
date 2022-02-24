@@ -1,5 +1,15 @@
 class Solution:
     def buildArray(self, target: List[int], n: int) -> List[str]:
+        curr, result = 1, []
+        for i in target:
+            result += ["Push"] + ["Pop", "Push"] * (i - curr)
+            curr = i + 1
+        return result
+        
+        
+        
+        
+    def solution_two(self, target: List[int], n: int):    
         point = 0
         num = 1
         q = []
