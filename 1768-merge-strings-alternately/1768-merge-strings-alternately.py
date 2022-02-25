@@ -1,5 +1,18 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
+        r = ""
+
+        for i in range(min(len(word1), len(word2))):
+            r = r + word1[i] + word2[i]
+
+        r = r + word1[i+1:] + word2[i+1:]
+        
+        return r
+        
+        
+        
+        
+    def firstOne(word1: str, word2: str):
         s = ""
  
         point1 = 0
