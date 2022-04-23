@@ -1,1 +1,1 @@
-​
+Solution 1: Self made. Classic Sliding Window
