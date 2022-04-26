@@ -3,7 +3,7 @@ class Solution:
         slow = 0
         fast = 0
         total = 0
-        greatest_avg = -100000000
+        greatest_avg = -1000000 # based on constraints provided
 
         while fast < len(nums):
             total += nums[fast]
