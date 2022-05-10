@@ -2,12 +2,12 @@ class Solution:
     def checkZeroOnes(self, s: str) -> bool:
         fast, count1, max1, count0, max0 = 0,0,0,0,0
 
-        while fast < len(s):
-            if s[fast] == '1':
+        for i in s:
+            if i == '1':
                 count1 += 1
                 count0 = 0
                 
-            elif s[fast] == '0':
+            elif i == '0':
                 count0 += 1
                 count1 = 0
             max1 = max(count1, max1)
