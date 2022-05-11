@@ -11,7 +11,7 @@ class Solution:
                 length += 1
 
             elif ord(s[fast]) != curr:
-                slow = fast
+                # slow = fast
                 curr = ord(s[fast])
                 length = 0
 
