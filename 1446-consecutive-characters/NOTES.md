@@ -1,1 +1,3 @@
 Approach 1: Personal: Pointer: Have a pointer. Let it go ahead as long as the current ord matches. Keep track of the max length. If the ord does not match, change the ord to the new one, set the length tracker to 0 and then restart the whole thing again.
+​
+In other words: Increase the counter by 1 if current char same as the previous one; otherwise, reset the counter to 1; Update the max value of the counter during each iteration.
