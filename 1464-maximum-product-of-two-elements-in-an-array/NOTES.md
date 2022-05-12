@@ -1,2 +1,2 @@
 Approach 1 (Personal): Sorting the array. T: O(nlogn)
-Approach 2
+Approach 2  (Not personal)
