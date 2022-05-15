@@ -1,1 +1,1 @@
-​
+Approach 1: (Personal) Make dict and then see if the doubled value exists in it.
