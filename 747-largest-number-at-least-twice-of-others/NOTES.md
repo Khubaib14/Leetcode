@@ -1,1 +1,2 @@
-​
+Approach 1 Brute Force Personal: Sort the array and check the last 2 max elements
+Approach 2: Personal 2 pass: pass thorugh the list twice. First pass note the max element, second pass note the second largest and see if the condition holds.
