@@ -1,5 +1,22 @@
 class Solution:
     def minAddToMakeValid(self, s: str) -> int:
+        leftneed = 0
+        rightneed = 0
+
+        for i in s:
+            if i == "(":
+                rightneed += 1
+            elif i == ")" and rightneed > 0:
+                rightneed -= 1
+            elif i == ")" and rightneed == 0:
+                leftneed += 1
+
+
+        return (rightneed + leftneed)
+
+            
+        
+    def solOne(s):
         stack = []
         count = 0
 
