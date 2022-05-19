@@ -1,1 +1,1 @@
-​
+Approach 1: Personal: T: O(n) S:(m) m: # of "(" types. Add "(" types to the stack unconditionally. For the ")" types, pop if stack[-1] is "(". Otherwise, increment count. These are cases where ")" is not paired with "(" type. At the end, excess # of "(" type will be left in the stack, while the counter variable will hold # of excess ")" tyoes.
