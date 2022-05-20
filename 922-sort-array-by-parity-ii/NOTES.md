@@ -1,1 +1,1 @@
-​
+Approach 1 (Personal): There are 4 different cases
