@@ -7,7 +7,24 @@ class Solution:
         #return: expected length of the intersection array.
         
         #code here
-        return len(set(a) & set(b))
+        if len(b) < len(a):
+            lower = b
+            upper = a
+        else:
+            lower = a
+            upper = b
+            
+        d = {}
+        
+        for i in lower:
+            d[i] = d.get(i, 0) + 1
+        
+        count = 0
+        upper = set(upper)
+        for i in upper:
+            if i in d:
+                count += 1
+        return (count)
         
         
     def solOne(self, a, b, n, m):
@@ -24,6 +41,7 @@ class Solution:
             d[i] = d.get(i, 0) + 1
         
         count = 0
+        upper = set(upper)
         for i in upper:
             if i in d:
                 count += 1
