@@ -1,5 +1,14 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
+        nums.sort()
+        return nums[len(nums)//2]
+        
+        
+        
+        
+        
+        
+    def hashmap(self, nums):
         if len(nums) == 1:
             return nums[0]
         mark = len(nums)//2
