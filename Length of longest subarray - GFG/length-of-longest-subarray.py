@@ -3,6 +3,26 @@
 def longestSubarry( arr, N):
     slow = 0
     fast = 0
+    maxer = 0
+    
+    while fast < len(arr):
+        # maxer = max(maxer, (fast-slow+1))
+        # print(arr[slow:fast+1], 'top')
+        if arr[fast] < 0:
+            maxer = max(maxer, (fast-slow))
+            # print(arr[slow:fast+1], 'middle')
+            slow = fast+1
+        maxer = max(maxer, (fast-slow+1))
+         #print(arr[slow:fast+1], 'bottom')
+        fast += 1
+            
+    return (maxer) 
+    
+    
+    
+def solOne(arr,N):
+    slow = 0
+    fast = 0
     l = []
     maxer = 0
     
