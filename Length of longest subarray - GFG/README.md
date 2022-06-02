@@ -8,7 +8,7 @@
 
 <p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example 1:</strong></span></p>
 
-<pre style="user-select: auto; position: relative;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input : </strong>
+<pre style="position: relative; user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input : </strong>
 N = 9
 A[] = {2, 3, 4, -1, -2, 1, 5, 6, 3}
 <strong style="user-select: auto;">Output : </strong>
@@ -21,7 +21,7 @@ contains no negative integers</span><div class="open_grepper_editor" title="Edit
 
 <div style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example 2:</strong></span></div>
 
-<pre style="user-select: auto; position: relative;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input : </strong>
+<pre style="position: relative; user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input : </strong>
 N = 10
 A[] = {1, 0, 0, 1, -1, -1, 0, 0, 1, 0}
 <strong style="user-select: auto;">Output : </strong>
