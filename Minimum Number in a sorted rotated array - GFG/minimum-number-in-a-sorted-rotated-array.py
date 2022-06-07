@@ -4,11 +4,19 @@
 class Solution:
     
     #Function to find the minimum element in sorted and rotated array.
-    def minNumber(self, arr,low,high):
-        #Your code here
-         arr.sort()
-         b=arr[0]
-         return b
+    def minNumber(self, arr, l, h):
+        start = 0
+        end = len(arr) - 1
+        mid = (start + end)//2
+        
+        while start <= end:
+            if arr[mid] > arr[end]:
+                start = mid + 1
+            elif arr[mid] < arr[start]:
+                end = mid
+            else:
+                return arr[start] 
+            mid = (start + end)//2
 #{ 
 #  Driver Code Starts
 #Initial Template for Python 3
