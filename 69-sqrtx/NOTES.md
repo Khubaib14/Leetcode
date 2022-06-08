@@ -1,1 +1,1 @@
-Bi
+Approach 1: Using binary search. Not that I came up with the solution completely myself. I came to know that BS could be used here. The idea is to have a search space which is b/w # itself and 0. Then look for mid, square it and see how it compares to k. If it is higher, then look for square in the left half. If it is lesser, then store the value in some variable and look rightwards. Return the ans.
