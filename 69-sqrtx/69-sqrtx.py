@@ -6,7 +6,6 @@ class Solution:
         ans = -1
         while start <= end:
             square = mid * mid
-            # print(square)
             if square == k:
                 return mid
             elif square < k:
