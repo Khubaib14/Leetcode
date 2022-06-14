@@ -1,1 +1,1 @@
-Approacj
+Approach 1: Binary Search for Left and for Right: In this approach, one of the test cases is failing.
