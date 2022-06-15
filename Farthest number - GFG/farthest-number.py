@@ -1,15 +1,35 @@
 #User function Template for python3
 
 class Solution:
+    def SuffixArrayOfMin(self, arr):
+        suffix_arr = [0]*len(arr)
+        suffix_arr[-1] = arr[-1]
+        
+        for i in range(len(arr)-1, 0, -1):
+            suffix_arr[i - 1] = min(arr[i-1], suffix_arr[i])
+    
+        return suffix_arr
+
+    def BinarySearchInSuffixArray(self, arr):
+        result = []
+        suffix_arr = self.SuffixArrayOfMin(arr)
+        for i in range(len(arr)):
+            start = i + 1
+            end = len(arr) - 1
+            ans = -1
+            while start <= end:
+                mid = (start + end)//2
+                if suffix_arr[mid] < arr[i]:
+                    ans = mid
+                    start = mid + 1
+                else:
+                    end = mid - 1 
+            result.append(ans)
+        return result
+
     def farNumber(self,N,Arr):
         #code here
-        lst = [-1]*N
-        for i in range(N):
-            for j in range(N-1, i, -1):
-                if Arr[j] < Arr[i]:
-                    lst[i]=j
-                    break
-        return lst
+        return self.BinarySearchInSuffixArray(Arr)
         
 
 #{ 
