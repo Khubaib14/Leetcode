@@ -4,10 +4,12 @@ class Solution:
         fast = 0
         slow = 0
         length = 0
-
+        
         while fast < len(s):
             if s[fast].isnumeric():
                 result[int(s[fast])-1] = s[slow:fast]
+                
+                # to accomodate for the last word of the list
                 if fast < len(s):
                     fast += 2
                     slow = fast
