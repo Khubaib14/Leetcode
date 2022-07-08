@@ -1,0 +1,37 @@
+# Linked List Length Even or Odd?
+## Easy
+<div class="problem-statement" style="user-select: auto;">
+                <p style="user-select: auto;"></p><p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;">Given a linked list of size <strong style="user-select: auto;">N</strong>, your task is to complete the&nbsp;function <strong style="user-select: auto;">isLengthEvenOrOdd() </strong>which contains <strong style="user-select: auto;">head</strong> of the linked list and check whether the length of linked list is even or odd.</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Input:</strong><br style="user-select: auto;">
+The input line contains <strong style="user-select: auto;">T</strong>, denoting the number of testcases. Each testcase contains two lines. the first line contains <strong style="user-select: auto;">N</strong>(size of the linked list). the second line contains N elements of the linked list separated by space.</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Output:</strong><br style="user-select: auto;">
+For each testcase in new line, print "<strong style="user-select: auto;">even</strong>"(without quotes) if the length is even else "<strong style="user-select: auto;">odd</strong>"(without quotes) if the length is odd.</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">User Task:</strong><br style="user-select: auto;">
+Since this is a functional problem you don't have to worry about input, you just have to&nbsp; complete the function <strong style="user-select: auto;">isLengthEvenOrOdd()&nbsp;</strong>which takes head of the linked list as input parameter and returns 0 if the length of the linked list is even otherwise returns 1.</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Constraints:</strong><br style="user-select: auto;">
+1 &lt;= T &lt;= 100<br style="user-select: auto;">
+1 &lt;= N &lt;= 10<sup style="user-select: auto;">3</sup><br style="user-select: auto;">
+1 &lt;= A[i] &lt;= 10<sup style="user-select: auto;">3</sup></span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Example:<br style="user-select: auto;">
+Input:</strong><br style="user-select: auto;">
+2<br style="user-select: auto;">
+3<br style="user-select: auto;">
+9 4 3<br style="user-select: auto;">
+6<br style="user-select: auto;">
+12 52 10 47 95 0</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Output:</strong><br style="user-select: auto;">
+Odd<br style="user-select: auto;">
+Even</span></p>
+
+<p style="user-select: auto;"><span style="font-size: 18px; user-select: auto;"><strong style="user-select: auto;">Explanation:<br style="user-select: auto;">
+Testcase 1: </strong>The length of linked list is 3 which is odd.<br style="user-select: auto;">
+<strong style="user-select: auto;">Testcase 2</strong>: The length of linked list is 6 which is even.</span><br style="user-select: auto;">
+&nbsp;</p>
+ <p style="user-select: auto;"></p>
+            </div>
