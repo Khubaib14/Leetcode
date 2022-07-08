@@ -11,22 +11,21 @@ class Node:
 def sumOfLastN_Nodes(head,n):
     #function should return sum of last n nodes
     length = 0
-    temp1 = head
-    temp2 = head
-    while temp1:
+    temp = head
+    while head:
         length += 1
-        temp1 = temp1.next
+        head = head.next
         
     to_count = length - n
     cnt = 0
     total = 0
-    while temp2:
+    while temp:
         if cnt < to_count:
             pass
         else:
-            total += temp2.data
+            total += temp.data
         cnt += 1
-        temp2 = temp2.next
+        temp = temp.next
     
     return total
 #{ 
