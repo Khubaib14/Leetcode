@@ -1,1 +1,1 @@
-​
+Return the head of the mid of the linked list. The second half of the linked list from that mid will be printed using that head you returned.
