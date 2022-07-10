@@ -14,7 +14,7 @@
 <p style="user-select: auto;">&nbsp;</p>
 <p style="user-select: auto;"><strong style="user-select: auto;">Example 1:</strong></p>
 
-<pre style="user-select: auto;"><strong style="user-select: auto;">Input</strong>
+<pre style="position: relative; user-select: auto;"><strong style="user-select: auto;">Input</strong>
 ["NumArray", "sumRange", "sumRange", "sumRange"]
 [[[-2, 0, 3, -5, 2, -1]], [0, 2], [2, 5], [0, 5]]
 <strong style="user-select: auto;">Output</strong>
@@ -25,7 +25,7 @@ NumArray numArray = new NumArray([-2, 0, 3, -5, 2, -1]);
 numArray.sumRange(0, 2); // return (-2) + 0 + 3 = 1
 numArray.sumRange(2, 5); // return 3 + (-5) + 2 + (-1) = -1
 numArray.sumRange(0, 5); // return (-2) + 0 + 3 + (-5) + 2 + (-1) = -3
-</pre>
+<div class="open_grepper_editor" title="Edit &amp; Save To Grepper" style="user-select: auto;"></div></pre>
 
 <p style="user-select: auto;">&nbsp;</p>
 <p style="user-select: auto;"><strong style="user-select: auto;">Constraints:</strong></p>
