@@ -33,6 +33,16 @@ class Solution:
         
         
         
+    def DoublePointe(self, c):
+        l=0 ; r=int(sqrt(c))
+        while l<=r:
+            s=l**2+r**2
+            if s>c: r-=1
+            elif s<c: l+=1
+            else: return True
+        
+        
+        
         
         
         
