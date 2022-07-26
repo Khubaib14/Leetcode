@@ -7,6 +7,13 @@ class Solution:
         return temp
     
     def transpose(self, matrix: List[List[int]]) -> List[List[int]]:
+        temp = []
+        for j in zip(*matrix):
+            temp.append(j)
+        return temp
+        
+        
+    def solOne(self, matrix):
         r = len(matrix) # 2
         c = len(matrix[0]) # 3
         temp = []
