@@ -1,1 +1,1 @@
-My own solution. Knowing that this was a stack problem also helped.
+​
